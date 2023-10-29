@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Kumbh+Sans&family=Kurale&family=Libre+Baskerville&family=Outfit&family=Overpass:wght@300&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/img/bg-pattern-top.svg");
+    min-height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    margin: 0 auto;
+    font-family:'Outfit', sans-serif;
+}
+
+
+main{
+    margin: 25% auto  ;
+    background: white;
+    width: 350px;
+    height: 315px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+
+.two{
+    width: fit-content;
+}
+
+.second img{
+    width: 350px;
+position: relative;
+bottom: 3rem;
+
+}
+.two{
+    align-items: center;
+    position: relative;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.display img{
+    border: solid white 4px;
+    border-radius: 50%; 
+    width: 7rem;
+    padding: 0;
+    position: relative;
+    bottom: 130px; 
+    right: 60px;
+    left: 120px;
+    
+}
+ .third{
+    position: relative;
+    bottom: 8rem;
+    left: 6rem;
+    margin: 10px;
+    line-height: 1.7;
+    word-spacing: 0.2rem;
+    
+ }
+
+ 
+ .name{
+    font-weight: 900;
+     
+ }
+
+.City{
+    position: relative;
+    left: 2rem;
+}
+
+.hr{
+    
+    border-top: hsl(227, 10%, 46%) solid 1.3px;
+    width: 500px auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 7rem; 
+}
+
+.count{
+    display: flex;
+    position: relative;
+    left: 3.5rem;
+    top: 1rem;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 4rem;
+    font-weight: 900;
+    font-size: large;
+    
+}
+
+ .profile{
+    display: flex;
+    column-gap: 4rem;
+    position: relative;
+    left: 25px;
+    top: 1.2rem;
+    padding-left: 1.3rem;
+    letter-spacing: 0.1rem;
+    font-size: 9px; 
+ }
+
+ .word{
+
+    
+ }
+ .profile, .age, .City{
+    color: hsl(227, 10%, 46%);
+ }
